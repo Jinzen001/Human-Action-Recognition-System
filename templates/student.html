@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/result" method="POST">
+        <input type="text" name="physics">
+        <input type="text" name="chemistry">
+        <input type="text" name="maths">
+        <input type="submit" value="submit">
+        
+</form>
+<form action="{{url_for('hello')}}">
+    <button type="submit">click to redirect</button>
+</form>
+</body>
+</html>
